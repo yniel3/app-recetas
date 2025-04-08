@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Cocina</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link type="image/png" rel="icon" href="assets/loader.png">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <div class="loader">
+        <figure class="slider">
+            <img src="assets/loader.png" alt="">
+        </figure>
+    </div>
+
+    <header class="cabezera">
+        <figure  href="index.html" class="logo">
+            <a href="index.html">
+                <img src="assets/logo.png" alt="Logotipo">
+            </a>
+        </figure>
+        
+        <nav class="navbar">
+            <a class="opciones" href="index.html">Inicio</a>
+            <a class="opciones" href="guardados.html">Favoritos</a>
+        </nav>
+        
+        <label class="abrir" for="abrir">
+            <input id="abrir" type="checkbox">
+        </label>
+    </header>
+
+    <div class="guardados"></div>
+
+    <dialog class="modalReceta">
+        <div class="modal">
+            <button class="cerrarModal">X</button>
+            <div class="avisoModal">
+                <p>Receta guardada en favoritos<img src="assets/heart-circle-solid-48.png" alt=""></p>
+            </div>
+            <img class="imgModal" src="https://www.themealdb.com/images/media/meals/sytuqu1511553755.jpg" alt="receta">
+            <div class="sticky">
+                <h2 class="tituloModal"></h2>
+            </div>
+            <h3>Instrucciones</h3>
+            <p class="instrucciones"></p>
+            <h4>Ingredientes</h4>
+            <div class="ingredientes">
+            </div>
+        </div>
+    </dialog>
+
+    <footer class="pie">
+        <div class="miInfo">
+            <h4>
+                App de Recetas rapidas.
+            </h4>
+            <figure class="logito">
+                <img src="assets/logo.png" alt="Johnniel">
+            </figure>
+            <p>Copyright ©2025, Designed by Johnniel</p>
+        </div>
+        <div class="enlaces">
+            <h4>Mis enlaces de contacto:</h4>
+            <a  class="link"  href="https://www.linkedin.com/in/johnniel-orozco-87b52a301/" target="_blank">Linkedin</a>
+            <a  class="link"  href="https://github.com/Johnniel3" target="_blank">GitHub</a>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script> 
+    <script src="app.js"></script>
+</body>
+</html>
