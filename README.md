@@ -10,6 +10,10 @@ _ 🙃 Guarda recetas en el localstorage
 - 🖼️ Imágenes de los platos
 - 💬 Interfaz amigable y responsiva
 
+## Enlace a la web
+
+Mi app de recetas ([visitar](https://yniel3.github.io/app-recetas/))
+
 ## 🛠️ Tecnologías utilizadas
 
 - JavaScript (vanilla)
