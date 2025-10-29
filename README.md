@@ -1,4 +1,4 @@
-# 🍽️ Recipe Finder
+# 🍽️ La Cocina
 
 Una aplicación web desarrollada en JavaScript que permite a los usuarios buscar recetas utilizando una API externa. Ideal para quienes buscan inspiración culinaria rápida y sencilla.
 
