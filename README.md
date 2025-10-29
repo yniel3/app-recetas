@@ -4,7 +4,8 @@ Una aplicación web desarrollada en JavaScript que permite a los usuarios buscar
 
 ## 🚀 Características
 
-- 🔍 Búsqueda de recetas por nombre o ingrediente
+- 🔍 Búsqueda de recetas por categoria
+_ 🙃 Guarda recetas en el localstorage
 - 📋 Visualización de ingredientes y pasos de preparación
 - 🖼️ Imágenes de los platos
 - 💬 Interfaz amigable y responsiva
